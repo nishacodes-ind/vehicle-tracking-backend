@@ -1,6 +1,6 @@
 # Submission Checklist
 
-Checked means verified in the current workspace. Flutter items remain open until run with an installed Flutter SDK; GitHub items remain open until the two public remotes are created and pushed.
+Checked means verified in the current workspace. Flutter runtime items remain open until run with an installed Flutter SDK.
 
 ## Backend
 
@@ -29,16 +29,17 @@ Checked means verified in the current workspace. Flutter items remain open until
 
 ## GitHub
 
-- [ ] Public backend repository created under `nishacodes-ind`.
-- [ ] Public Flutter repository created under `nishacodes-ind`.
+- [x] Public backend repository created under `nishacodes-ind`: https://github.com/nishacodes-ind/vehicle-tracking-backend
+- [x] Public Flutter repository created under `nishacodes-ind`: https://github.com/nishacodes-ind/vehicle-tracking-flutter
 - [x] No `.env` file or local `.venv` is tracked in either local repo.
 - [x] Secret-pattern scan of tracked files found no embedded credentials; expected environment configuration and demo documentation are not secrets.
 - [x] Backend README is present.
 - [x] Flutter README is present.
 - [x] Both repositories have `.gitignore` files.
 - [x] Both local Git repositories use the `main` branch and have an initial commit.
-- [ ] Public repository access, README rendering, and pushed files verified on GitHub.
-- [ ] Final commit pushed to both GitHub repositories.
+- [x] Public repository access, README availability, and pushed files verified through GitHub.
+- [x] Project implementation pushed to both GitHub repositories on `main`.
+- [ ] Follow-up verification-notes commit pushed to the backend repository (local commit is ready; the push was declined).
 
 ## Known submission notes
 
@@ -46,3 +47,4 @@ Checked means verified in the current workspace. Flutter items remain open until
 - GPS values are simulated; there is no physical GPS device.
 - Flutter source has not been built or launched on this computer because Flutter is not installed.
 - Docker Compose is not included.
+- Flutter could not be compiled or run here because Flutter is not installed.

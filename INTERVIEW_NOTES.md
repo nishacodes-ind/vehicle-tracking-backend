@@ -260,7 +260,7 @@ If Flutter is not installed at demo time, explain that the client source is prep
 - Demo token persistence uses shared preferences, not encrypted secure storage.
 - MQTT/database ingestion errors are logged but are not queued for later retry.
 - No automated test suite was added; manual/API checks are described in the READMEs.
-- No GitHub remotes were created or pushed because no GitHub account/repository URLs were provided and the GitHub CLI is unavailable.
+- The backend and Flutter repositories were pushed publicly to `nishacodes-ind` on GitHub; their URLs are listed in the submission checklist.
 
 ## 8. FUTURE improvements (not implemented)
 
